@@ -1,0 +1,21 @@
+{
+  "name": "@debtpanel/types",
+  "version": "1.0.0",
+  "description": "Basic types required for debtpanel.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DebtPanel/types"
+  },
+  "typings": "./types.d.ts",
+  "scripts": {
+    "compile": "rimraf lib && tsc -d",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [],
+  "author": "Simon Skinner <ss@debtpanel.co.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "typescript": "^2.4.0"
+  }
+}

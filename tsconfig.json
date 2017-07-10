@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "./lib",
+    "sourceRoot": "./src/",
+    "rootDir": "./src/",
+    "sourceMap": true,
+    "lib": [
+      "es2016"
+    ]
+  },
+  "exclude": [
+    "./types.d.ts",
+    "node_modules"
+  ]
+}
